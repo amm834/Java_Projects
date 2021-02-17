@@ -4,17 +4,17 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello World!");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Type Your Name");
+		String name = sc.nextLine();
 
-		Scanner input = new Scanner(System.in);
+		System.out.println("Type Your Age");
+		//int age = sc.nextInt();
+		String ageStr = sc.nextLine();
+		// Parse String To Integer
+		int age = Integer.parseInt(ageStr);
 
-		System.out.print("Enter a number: ");
-		double number1 = input.nextDouble();
-
-		System.out.print("Enter second number: ");
-		double number2 = input.nextDouble();
-//nums
-		double product = number1 * number2;
-		System.out.printf("The product of both numbers is: %f", product);
+		System.out.println("Your name is " + name);
+		System.out.println("Your age is " + age);
 	}
 }
