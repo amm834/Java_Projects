@@ -15,7 +15,8 @@ public class Main
 		}
 		
 		name = "Aung Myat Moe";
+		if(name != null){
 		System.out.println(name.length());
-		
+		}
 	}
 }
