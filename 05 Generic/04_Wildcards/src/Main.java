@@ -15,6 +15,8 @@ public class Main
 				Box<Student> box3 = new Box<>();
 				box3.setBox(new Student());
 				getBoxData ( box2);
+				
+				
 			}
 
 		private static void getBoxData(Box<? extends Person> box)
