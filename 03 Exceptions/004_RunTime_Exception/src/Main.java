@@ -18,5 +18,6 @@ public class Main
 		if(name != null){
 		System.out.println(name.length());
 		}
+		j
 	}
 }
